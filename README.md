@@ -28,7 +28,8 @@ Example: instead of **“Rating: 8.1”**, Sentinema explains:
 
 ## 📂 Project Structure
 sentinema/  
- ├─ data/ — IMDb dataset (reviews, labels)  
+ ├─ data/
+ │    └─ README_DATA.txt 
  ├─ src/ — (planned) preprocessing, sentiment model, visualization code  
  ├─ outputs/ — (planned) generated charts, word clouds, sentiment results  
  ├─ notebooks/ — (planned) experiments and prototyping  
@@ -47,12 +48,12 @@ python main.py
 ---
 
 ## 📥 Download Dataset
-This repository does **not** include the IMDb dataset due to licensing restrictions.  
-To run the project, download the IMDb Movie Reviews dataset from Kaggle and place the files inside the following directory:
+Due to licensing restrictions, this repository does not include the IMDb Movie Reviews dataset.
+Please download the dataset from Kaggle and place the files under:
 
-data/
+`./data/`
 
-Sentinema does **not** redistribute third-party datasets.
+Kaggle link: https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
 
 ---
 
