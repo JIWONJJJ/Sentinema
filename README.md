@@ -1,31 +1,28 @@
 ## 🎬 Sentinema: Sentiment-Driven Interpretation of Movie Reviews
 
-**Sentinema** is an open-source project that connects **quantitative movie ratings** with **the qualitative emotional reactions of audiences**.  
-Using the **IMDb Movie Reviews dataset (Kaggle)**, the system identifies **sentiment polarity (positive/negative)** and extracts **emotional keywords** to reveal *why* viewers liked or disliked a movie — not just *how much* they liked it.
+Sentinema is an open-source project that connects quantitative movie ratings with the qualitative emotional reactions of audiences. Using the IMDb Movie Reviews dataset (Kaggle), the system identifies sentiment polarity (positive/negative) and extracts emotional keywords to reveal why viewers liked or disliked a movie — not just how much they liked it.
 
 ---
 
 ### 🚀 Key Features
-| Category | Description |
-|---------|-------------|
-| 🔍 Sentiment Analysis | Binary classification of reviews (positive / negative) |
-| 💡 Emotion Mining | Extraction and ranking of emotional keywords |
-| 📊 Visualization | Sentiment trends, emotion distribution, dashboards |
-| ☁️ Word Clouds | Highlighting emotions that influenced viewer opinions |
+- Binary sentiment classification (positive / negative)
+- Emotional keyword extraction and ranking
+- Interactive visualizations (sentiment distribution, emotion trends)
+- Word clouds based on dominant audience emotions
 
 ---
 
 ### 🌟 Why Sentinema?
-Unlike traditional sentiment models or recommendation systems that output only numeric scores, **Sentinema highlights the reasons behind the score**.
+Traditional sentiment systems only return a numeric score. Sentinema goes further by explaining the reasons behind the score.
 
-Instead of simply presenting “Rating: 8.1”, Sentinema explains:
+Example: instead of **“Rating: 8.1”**, Sentinema explains:
 > “Viewers praised the cinematography and soundtrack, but criticized the pacing.”
 
 ---
 
 ## 👥 Team Members
-- 장지원 (Jang Jiwon) — Sejong University  
-- 이민기 (Lee Mingi) — Sejong University 
+- 장지원 (Jang Jiwon) — Sejong University
+- 이민기 (Lee Mingi) — Sejong University
 
 ---
 
@@ -43,30 +40,38 @@ sentinema/
 
 ## ▶ How to Run
 1) Install dependencies  
-`pip install -r requirements.txt`
-
+pip install -r requirements.txt  
 2) Run the project  
-`python main.py`
+python main.py
+
+---
+
+## 📥 Download Dataset
+This repository does **not** include the IMDb dataset due to licensing restrictions.  
+To run the project, download the IMDb Movie Reviews dataset from Kaggle and place the files inside the following directory:
+
+data/
+
+Sentinema does **not** redistribute third-party datasets.
 
 ---
 
 ## 📦 Tech Outline
-| Stage | Summary |
-|-------|---------|
-| Data | IMDb Movie Reviews dataset (Kaggle) |
-| NLP | Sentiment polarity + emotional keyword extraction |
-| Output | JSON-structured sentiment annotations |
-| Visualization | Interactive charts and word clouds |
+- Dataset: IMDb Movie Reviews (Kaggle)
+- NLP: Sentiment polarity + emotional keyword extraction
+- Output format: JSON sentiment annotations
+- Visualization: Charts + word clouds summarizing audience emotions
 
 ---
 
 ## 🛠 Roadmap
-- Multiclass emotion recognition (Joy / Anger / Surprise / Fear / etc.)
+- Multiclass emotion recognition (Joy / Anger / Surprise / Fear, etc.)
 - Zero-shot generalization to unseen movies
-- REST API for dashboard/recommendation system integration
+- REST API for dashboard / recommendation system integration
 
 ---
 
 ## 📄 Citation / Thanks
-Dataset: **IMDb Movie Reviews — Kaggle**  
-Sentinema does not redistribute Kaggle data; users must download it according to its license.
+Dataset: IMDb Movie Reviews — Kaggle  
+Users must download the dataset directly from Kaggle under its license.  
+This repository only provides code and does not redistribute IMDb data.
