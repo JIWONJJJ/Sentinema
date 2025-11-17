@@ -32,9 +32,9 @@ Instead of simply presenting “Rating: 8.1”, Sentinema explains:
 ## 📂 Project Structure
 sentinema/  
  ├─ data/ — IMDb dataset (reviews, labels)  
- ├─ src/ — preprocessing, sentiment model, visualization code  
- ├─ outputs/ — generated charts, word clouds, sentiment results  
- ├─ notebooks/ — experiments and prototyping  
+ ├─ src/ — (planned) preprocessing, sentiment model, visualization code  
+ ├─ outputs/ — (planned) generated charts, word clouds, sentiment results  
+ ├─ notebooks/ — (planned) experiments and prototyping  
  ├─ README.md  
  ├─ requirements.txt  
  └─ main.py  
