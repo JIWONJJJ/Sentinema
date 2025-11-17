@@ -28,7 +28,7 @@ Example: instead of **“Rating: 8.1”**, Sentinema explains:
 
 ## 📂 Project Structure
 sentinema/  
- ├─ data/ — README_DATA.txt
+ ├─ data/ — README_DATA.txt            
  ├─ src/ — (planned) preprocessing, sentiment model, visualization code  
  ├─ outputs/ — (planned) generated charts, word clouds, sentiment results  
  ├─ notebooks/ — (planned) experiments and prototyping  
