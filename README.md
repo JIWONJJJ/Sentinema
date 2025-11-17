@@ -1,5 +1,6 @@
 # Sentinema
 Sentiment + Cinema : Sentiment analysis of Movie reviews
+
 Sentinema is an open-source project that bridges quantitative movie ratings and qualitative audience emotions.
 Using the IMDb Movie Reviews dataset from Kaggle, the system extracts sentiment polarity (positive/negative)
 and key emotional keywords for each movie, then visualizes results with interactive charts and word clouds.
