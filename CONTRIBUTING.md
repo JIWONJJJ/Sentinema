@@ -3,8 +3,6 @@
 Thank you for considering contributing to **Sentinema**!  
 We welcome contributions of all kinds — bug reports, feature suggestions, documentation improvements, and pull requests.
 
----
-
 ## 🧩 How to Contribute
 
 ### 1. Issues
@@ -30,8 +28,6 @@ Please follow the existing code style of the project:
 - Maintain readability
 - Add comments for non-obvious logic
 - Avoid large PRs when possible — small PRs are easier to review
-
----
 
 ## 💬 Communication
 For any questions or clarifications:
