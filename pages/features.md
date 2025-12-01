@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Features
+permalink: /features/
+
 ---
 
 # ✨ Sentinema Feature Showcase
