@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-permalink: /community/
+permalink: /index/
 
 ---
 
