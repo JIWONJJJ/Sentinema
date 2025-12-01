@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Home
+permalink: /community/
+
 ---
 
 # 🎬 Sentinema
