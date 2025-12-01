@@ -82,7 +82,7 @@ sentinema/
 
 
 
-\## ▶ How to Run
+## ▶ How to Run
 
 1\) Install dependencies  
 
