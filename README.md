@@ -7,6 +7,11 @@ Sentinema is an open-source project that connects quantitative movie ratings wit
 
 
 ---
+## 📚 Documentation
+
+The official Sentinema documentation is hosted on Read the Docs:  
+https://sentinema.readthedocs.io/en/latest/
+---
 
 
 
