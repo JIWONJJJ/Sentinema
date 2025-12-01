@@ -1,3 +1,7 @@
 theme: jekyll-theme-cayman
 title: "Sentinema"
 description: "An open-source project website"
+
+
+# 지원
+show_downloads: true
