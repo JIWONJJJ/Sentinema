@@ -1,0 +1,52 @@
+/* 상단 네비게이션 바 */
+.navbar {
+  background: #1f2933;             /* 약간 어두운 남색 */
+  padding: 12px 16px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* 기본 링크 스타일 */
+.nav-link {
+  color: #e5e7eb;                   /* 밝은 회색 */
+  margin: 0 8px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding: 6px 10px;
+  border-radius: 4px;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.1s ease;
+}
+
+/* Home 강조 */
+.nav-home {
+  font-weight: 700;
+}
+
+/* GitHub / Forum / Docs 같은 액센트 링크 */
+.nav-accent {
+  background: rgba(59, 130, 246, 0.15);   /* 옅은 파란 */
+  border: 1px solid rgba(59, 130, 246, 0.5);
+}
+
+/* hover 효과 */
+.nav-link:hover {
+  background: #111827;
+  color: #f9fafb;
+  transform: translateY(-1px);
+}
+
+/* 액센트 hover 조금 더 강조 */
+.nav-accent:hover {
+  background: #2563eb;
+  color: #f9fafb;
+}
+
+/* 구분자 | */
+.nav-separator {
+  color: #6b7280;
+  margin: 0 4px;
+}
