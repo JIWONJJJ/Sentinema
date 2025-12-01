@@ -1,58 +1,66 @@
-/* 상단 네비게이션 바 */
-.navbar {
-  background: #1f2933;             /* 약간 어두운 남색 */
-  padding: 12px 16px;
-  text-align: center;
+/* 페이지 전체 기본 컨테이너 (이미 있으면 유지) */
+.page-container {
+  margin: 40px auto;
+  max-width: 900px;
+  padding: 0 20px 60px;  /* 아래 여백 조금 */
+}
+
+/* 푸터 스타일 */
+.site-footer {
+  background: #0b1120;         /* 네비보다 조금 더 어두운 남색 */
+  color: #e5e7eb;
+  padding: 20px 16px 12px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+
+.footer-inner {
+  max-width: 900px;
+  margin: 0 auto;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
-/* 기본 링크 스타일 */
-.nav-link {
-  color: #e5e7eb;                   /* 밝은 회색 */
-  margin: 0 8px;
+.footer-left {
+  flex: 1 1 200px;
+}
+
+.footer-right {
+  flex: 1 1 220px;
+}
+
+.footer-title {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.footer-text {
+  color: #9ca3af;
+}
+
+.footer-item {
+  margin-bottom: 4px;
+}
+
+.footer-item a {
+  color: #93c5fd;    /* 연한 파란 링크 */
   text-decoration: none;
-  font-weight: 500;
-  font-size: 0.95rem;
-  padding: 6px 10px;
-  border-radius: 4px;
-  transition:
-    background 0.2s ease,
-    color 0.2s ease,
-    transform 0.1s ease,
-    font-weight 0.1s ease;
 }
 
-/* Home 강조 제거 → nav-home은 별도 스타일 없음 */
-.nav-home {
-  font-weight: 500;
+.footer-item a:hover {
+  text-decoration: underline;
 }
 
-/* GitHub / Forum / Docs: 박스 효과 제거 */
-.nav-accent {
-  /* 별도 배경/테두리 없음, 기본 nav-link 스타일만 사용 */
-}
-
-/* hover 효과: 배경 살짝 진해지고, 글씨 굵어지고, 살짝 확대 */
-.nav-link:hover {
-  background: #111827;
-  color: #f9fafb;
-  font-weight: 700;
-  transform: scale(1.05);
-}
-
-/* 액센트 링크도 hover는 동일하게 적용 */
-.nav-accent:hover {
-  background: #111827;
-  color: #f9fafb;
-  font-weight: 700;
-  transform: scale(1.05);
-}
-
-/* 구분자 | */
-.nav-separator {
+.footer-bottom {
+  max-width: 900px;
+  margin: 12px auto 0;
+  padding-top: 8px;
+  border-top: 1px solid #111827;
+  text-align: center;
   color: #6b7280;
-  margin: 0 4px;
+  font-size: 0.8rem;
 }
