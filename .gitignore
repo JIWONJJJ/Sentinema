@@ -1,0 +1,9 @@
+# Python venv
+.venv/
+
+# Sphinx build artifacts
+docs/build/
+
+# 기타 필요시
+__pycache__/
+*.pyc
