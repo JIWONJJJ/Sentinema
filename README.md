@@ -16,7 +16,7 @@ https://sentinema.readthedocs.io/en/latest/
 
 
 
-\### 🚀 Key Features
+### 🚀 Key Features
 
 \- Binary sentiment classification (positive / negative)
 
@@ -30,9 +30,7 @@ https://sentinema.readthedocs.io/en/latest/
 
 ---
 
-
-
-\### 🌟 Why Sentinema?
+### 🌟 Why Sentinema?
 
 Traditional sentiment systems only return a numeric score. Sentinema goes further by explaining the reasons behind the score.
 
@@ -48,7 +46,7 @@ Example: instead of \*\*“Rating: 8.1”\*\*, Sentinema explains:
 
 
 
-\## 👥 Team Members
+## 👥 Team Members
 
 \- 장지원 (Jang Jiwon) — Sejong University
 
@@ -60,7 +58,7 @@ Example: instead of \*\*“Rating: 8.1”\*\*, Sentinema explains:
 
 
 
-\## 📂 Project Structure
+## 📂 Project Structure
 
 sentinema/  
 
@@ -100,7 +98,7 @@ python main.py
 
 
 
-\## 📥 Download Dataset
+## 📥 Download Dataset
 
 Due to licensing restrictions, this repository does not include the IMDb Movie Reviews dataset.
 
@@ -120,7 +118,7 @@ Kaggle link: https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k
 
 
 
-\## 📦 Tech Outline
+## 📦 Tech Outline
 
 \- Dataset: IMDb Movie Reviews (Kaggle)
 
@@ -136,7 +134,7 @@ Kaggle link: https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k
 
 
 
-\## 🛠 Roadmap
+## 🛠 Roadmap
 
 \- Multiclass emotion recognition (Joy / Anger / Surprise / Fear, etc.)
 
@@ -150,7 +148,7 @@ Kaggle link: https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k
 
 
 
-\## 📄 Citation / Thanks
+## 📄 Citation / Thanks
 
 Dataset: IMDb Movie Reviews — Kaggle  
 
