@@ -7,34 +7,31 @@ permalink: /contact/
 
 # 📬 Contact
 
-Sentinema 프로젝트에 대한 문의, 제안, 협업 요청은 언제든 환영합니다.
+Inquiries, suggestions, and requests for collaboration on the Sentinema project are always welcome.
 
 ---
 
 ## 📧 Email
-문의 이메일: **sentinema.team@example.com**  
-(필요 시 실제 팀 이메일로 변경)
+Contact Email: **mg821948@gmail.com**  
+
 
 ---
 
 ## 🧑‍💻 GitHub
-- 프로젝트 저장소: https://github.com/jiwonjjj/Sentinema  
-- Issue 생성: https://github.com/jiwonjjj/Sentinema/issues  
-- Discussions: https://github.com/jiwonjjj/Sentinema/discussions  
+Project repository: https://github.com/jiwonjjj/Sentinema
+Issue generation: https://github.com/jiwonjjj/Sentinema/issues
+Discussions: https://github.com/jiwonjjj/Sentinema/discussions  
 
 ---
 
 ## 💬 Social Links
-(추후 필요 시 실제 링크 추가)
+Discord Server: https://discord.gg/4KzwTUeYGS 
 
-- Slack Workspace: 준비 중  
-- Discord Server: 준비 중  
-- Twitter / X: 준비 중
 
 ---
 
 ## 📝 Feedback
-버그 제보, 기능 제안, UX 개선 의견 등을 남기고 싶다면  
-GitHub **Issues** 또는 **Discussions**를 이용해주세요.
+If you want to leave bug reports, feature suggestions, UX improvement comments, etc  
+Use GitHub **Issues** or **Discussions**.
 
-Sentinema 개발팀은 열린 피드백을 환영합니다!
+Sentinema development team welcome open feedback!
