@@ -2,15 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title }} | Sentinema</title>
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
-
 <body>
   {% include header.html %}
 
-  <div style="margin: 40px auto; max-width: 900px;">
+  <main class="page-container">
     {{ content }}
-  </div>
+  </main>
+
+  {% include footer.html %}
 </body>
 </html>
