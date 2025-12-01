@@ -1,4 +1,4 @@
-\## 🎬 Sentinema: Sentiment-Driven Interpretation of Movie Reviews
+## 🎬 Sentinema: Sentiment-Driven Interpretation of Movie Reviews
 
 
 
@@ -7,7 +7,7 @@ Sentinema is an open-source project that connects quantitative movie ratings wit
 
 
 ---
-\## 📚 Documentation
+## 📚 Documentation
 
 The official Sentinema documentation is hosted on Read the Docs:  
 https://sentinema.readthedocs.io/en/latest/
