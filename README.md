@@ -1,5 +1,5 @@
 ## 🎬 Sentinema: Sentiment-Driven Interpretation of Movie Reviews
-
+GitHub Website : https://jiwonjjj.github.io/Sentinema/
 
 
 Sentinema is an open-source project that connects quantitative movie ratings with the qualitative emotional reactions of audiences. Using the IMDb Movie Reviews dataset (Kaggle), the system identifies sentiment polarity (positive/negative) and extracts emotional keywords to reveal why viewers liked or disliked a movie — not just how much they liked it.
