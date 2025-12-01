@@ -17,7 +17,7 @@ Sentinema는 오픈소스 기반으로 제작된
 ---
 
 ## 🔗 Quick Links
-- 📘 **Documentation (ReadTheDocs)** — 준비 중  
+- 📘 **Documentation (ReadTheDocs)** — https://sentinema.readthedocs.io/en/latest/  
 - 💻 **GitHub Repository** — https://github.com/jiwonjjj/Sentinema
 - 👥 **Community** — /community
 - ✨ **Features** — /features
