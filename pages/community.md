@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Community
+permalink: /community/
+
 ---
 
 # 👥 Sentinema Community
