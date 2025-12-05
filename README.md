@@ -80,7 +80,7 @@ If you want to retrain the model yourself using the full IMDb dataset:
 ```bash
 python train_model.py
 ```
-This will generate a new .pkl file in the models/ directory.
+This will generate a new `.pkl` file in the `models/` directory.
 
 ---
 
