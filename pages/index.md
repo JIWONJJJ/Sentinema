@@ -4,7 +4,7 @@ title: Home
 permalink: /
 ---
 
-<div style="text-align: center; padding: 40px 0 60px;">
+<div style="text-align: center; padding: 0px 0 60px;">
   <h1 style="font-size: 3rem; margin-bottom: 20px; font-weight: 800;">Sentinema</h1>
   <p style="font-size: 1.5rem; color: #4b5563; max-width: 700px; margin: 0 auto 40px;">
     Deciphering the Audience's Heart.<br>
