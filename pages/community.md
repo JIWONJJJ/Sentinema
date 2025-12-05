@@ -16,7 +16,7 @@ We welcome everyone to share ideas, discuss issues, and contribute to the growth
 Have a question? Found a bug? Want to propose a new feature?
 **GitHub Discussions** is the best place for general conversations and brainstorming.
 
-[👉 Join the Discussion on GitHub](https://github.com/JIWONJJJ/Sentinema/discussions){: .btn .btn-primary }
+[👉 Join the Discussion on GitHub](https://github.com/JIWONJJJ/Sentinema/discussions){: .btn .btn-outline }
 
 ---
 
