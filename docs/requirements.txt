@@ -1,2 +1,7 @@
+pandas
+scikit-learn
+joblib
+matplotlib
+wordcloud
 sphinx
 sphinx-rtd-theme
