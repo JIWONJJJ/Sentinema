@@ -12,7 +12,7 @@ permalink: /
   </p>
   
   <div>
-    <a href="https://sentinema.readthedocs.io/en/latest/" class="btn btn-primary" style="font-size: 1.1rem; padding: 12px 24px;">
+    <a href="https://sentinema.readthedocs.io/en/latest/" class="btn btn-outline" style="font-size: 1.1rem; padding: 12px 24px;">
       📚 Read the Docs
     </a>
     <a href="https://github.com/JIWONJJJ/Sentinema" class="btn btn-outline" style="font-size: 1.1rem; padding: 12px 24px; margin-left: 10px;">
