@@ -15,7 +15,7 @@ Whether you have a question about features, found a bug, or want to collaborate,
 
 For direct inquiries, partnership proposals, or private suggestions, please email us.
 
-[✉️ mg821948@gmail.com](mailto:mg821948@gmail.com){: .btn .btn-primary }
+[✉️ mg821948@gmail.com](mailto:mg821948@gmail.com){: .btn .btn-outline }
 
 ---
 
