@@ -24,7 +24,7 @@ a:hover {
 }
 
 /* =========================================
-   2. 상단 네비게이션 바 (업그레이드)
+   2. 상단 네비게이션 바 (수정됨)
    ========================================= */
 .navbar {
   background: #1f2933;
@@ -33,30 +33,38 @@ a:hover {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* 그림자 추가로 입체감 */
-  position: sticky; /* 스크롤 시 상단 고정 (선택사항) */
+  gap: 15px; /* 간격을 조금 더 넓혔습니다 */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
   top: 0;
   z-index: 1000;
 }
 
 .nav-link {
-  color: #e5e7eb;
-  text-decoration: none !important; /* 밑줄 강제 제거 */
-  font-weight: 500;
-  font-size: 0.95rem;
-  padding: 8px 14px;
-  border-radius: 6px;
-  transition: all 0.2s ease;
-  border: 1px solid transparent; /* 호버 시 테두리 공간 확보 */
+  color: #e5e7eb; /* 기본 색상: 연한 회색 */
+  text-decoration: none !important;
+  font-weight: 400; /* 기본 두께: 얇게 */
+  font-size: 1rem;
+  padding: 8px 10px;
+  transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* 쫀득한 느낌의 부드러운 전환 */
+  background: transparent; /* 배경 투명 */
 }
 
-/* 호버 효과: 덜컥거림 없이 배경만 부드럽게 변경 */
+/* 1. Hover 효과: 배경 없이 글씨만 부드럽게 확대 */
 .nav-link:hover {
-  background: #374151;
-  color: #ffffff;
-  transform: translateY(-1px); /* 살짝 떠오르는 효과 */
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  background: transparent; /* 배경 박스 제거 */
+  color: #ffffff; /* 글씨 색만 흰색으로 */
+  transform: scale(1.15); /* 1.15배 부드럽게 확대 */
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.3); /* 살짝 빛나는 효과 추가 (선택사항) */
+  box-shadow: none; /* 그림자 제거 */
+}
+
+/* 2. Active 상태: 현재 보고 있는 페이지는 굵게 표시 */
+/* Jekyll에서 page.url과 링크가 일치할 때 .current 클래스를 줍니다 */
+.nav-link.current {
+  color: #ffffff; /* 완전 흰색 */
+  font-weight: 700; /* 굵게 */
+  border-bottom: 2px solid #3b82f6; /* (선택사항) 아래에 파란색 밑줄로 포인트 */
 }
 
 .nav-separator {
