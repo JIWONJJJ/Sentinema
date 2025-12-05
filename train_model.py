@@ -59,4 +59,5 @@ print(classification_report(y_test, y_pred))
 # 이 파일을 저장해야 main.py에서 매번 학습하지 않고 바로 분석할 수 있습니다.
 model_filename = 'sentinema_model.pkl'
 joblib.dump(pipeline, model_filename)
+
 print(f"💾 Model saved to '{model_filename}'")
