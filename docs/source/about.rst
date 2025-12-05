@@ -13,10 +13,10 @@ or disliked a movie — not just how much they liked it.
 Key Features
 ------------
 
-- Binary sentiment classification (positive / negative)
-- Emotional keyword extraction and ranking
-- Interactive visualizations (sentiment distribution, emotion trends)
-- Word clouds based on dominant audience emotions
+- **Binary Sentiment Classification:** Predicts positive or negative sentiment using Logistic Regression.
+- **Emotional Keyword Extraction:** Identifies significant words contributing to the sentiment.
+- **Visualizations:** Generates Word Clouds to visualize dominant audience emotions.
+- **Demo Mode:** Includes a built-in demo dataset (e.g., Parasite, Inception) for immediate testing without external data.
 
 Why Sentinema?
 --------------
@@ -33,21 +33,21 @@ Example::
 Team
 ----
 
-- 장지원 (Jang Jiwon) — Sejong University
-- 이민기 (Lee Mingi) — Sejong University
+- **Jang Jiwon** — Sejong University
+- **Lee Mingi** — Sejong University
 
 Tech Outline
 ------------
 
-- Dataset: IMDb Movie Reviews (Kaggle)
-- NLP: Sentiment polarity + emotional keyword extraction
-- Output format: JSON sentiment annotations
-- Visualization: Charts + word clouds summarizing audience emotions
+- **Dataset:** IMDb Movie Reviews (Kaggle)
+- **NLP Model:** TF-IDF Vectorization + Logistic Regression (Scikit-learn)
+- **Visualization:** WordCloud + Matplotlib (Generates .png images)
+- **Language:** Python 3.8+
 
 Citation / Thanks
 -----------------
 
-Dataset: IMDb Movie Reviews — Kaggle
+**Dataset:** IMDb Movie Reviews — Kaggle
 
 Users must download the dataset directly from Kaggle under its license.
-This repository only provides code and does not redistribute IMDb data.
+This repository only provides code and educational demo data; it does not redistribute the full IMDb dataset.
