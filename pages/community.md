@@ -27,7 +27,7 @@ For official announcements and direct support, please reach out via email.
 | Topic | Email Address |
 | :--- | :--- |
 | **📣 Announcements** | [mg821948@gmail.com](mailto:mg821948@gmail.com) |
-| **🆘 Support** | [mg821948@gmail.com](mailto:mg821948@gmail.com) |
+| **🆘 Support** | [nowinau@gmail.com](mailto:nowinau@gmail.com) |
 | **💻 Development** | [mg821948@gmail.com](mailto:mg821948@gmail.com) |
 
 ---
