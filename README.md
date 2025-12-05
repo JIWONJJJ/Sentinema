@@ -45,7 +45,7 @@ sentinema/
  ├─ train_model.py         # Script to retrain the model from scratch
  ├─ requirements.txt       # Python dependencies
  └─ README.md              # Project overview
-
+```
 
 
 ---
@@ -58,7 +58,7 @@ sentinema/
 First, ensure you have Python installed. Then install the required libraries:
 ```bash
 pip install -r requirements.txt
-
+```
 
 ### 2. Run Demo (Quick Start)
 We provide a **pre-trained model** (`models/sentinema_model.pkl`) and a **demo dataset** so you can test the project immediately without training.
@@ -66,11 +66,12 @@ We provide a **pre-trained model** (`models/sentinema_model.pkl`) and a **demo d
 **To analyze a specific movie:**
 ```bash
 python main.py --movie "Parasite"
-
+```
 Currently supported demo movies: Inception, Parasite, Joker
 **To see usage instructions:**
+```bash
 python main.py --help
-
+```
 
 ### 3. Train Model (Optional)
 If you want to retrain the model yourself using the full IMDb dataset:
@@ -78,7 +79,7 @@ If you want to retrain the model yourself using the full IMDb dataset:
 2. Run the training script:
 ```bash
 python train_model.py
-
+```
 This will generate a new .pkl file in the models/ directory.
 
 ---
